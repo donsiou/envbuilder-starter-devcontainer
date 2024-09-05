@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update
-RUN apt-get install vim sudo curl htop -y
+RUN apt-get install vim sudo curl htop tree -y
 
 RUN useradd -m -s /bin/bash -G sudo coder
 USER coder
